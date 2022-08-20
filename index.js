@@ -61,6 +61,7 @@ const rainBowColors = () => {
     const rainBowColors = ["Red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 
     const result = rainBowColors.toString();
+    alert(`The colors of the rainbow are ${result}`);
     return `The colors of the rainbow are ${result}`
 };
 
