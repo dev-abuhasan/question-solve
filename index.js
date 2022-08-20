@@ -15,8 +15,6 @@ class STUDENTS {
         `)
     }
 }
-let test = new STUDENTS("JavaScript");
-// test.print();
 
 const getCrrStudent = (e) => {
     const getMinhaj = document.getElementById('minhaj');
