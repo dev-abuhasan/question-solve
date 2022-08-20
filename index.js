@@ -1,4 +1,4 @@
-// question no 5
+// question no 2
 class STUDENTS {
     constructor(batch, credits, totalCreditHourAtt, gpa) {
         this.batch = batch;
