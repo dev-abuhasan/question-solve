@@ -64,3 +64,6 @@ const rainBowColors = () => {
         <p>The colors of the rainbow are ${result}</p>
     `
 };
+
+
+
