@@ -59,10 +59,8 @@ const makeSandwiches = () => {
 // question no 5
 const rainBowColors = () => {
     const rainBowColors = ["Red", "orange", "yellow", "green", "blue", "indigo", "violet"];
-
     const result = rainBowColors.toString();
-    alert(`The colors of the rainbow are ${result}`);
-    return `The colors of the rainbow are ${result}`
+    document.getElementById('rainbow').innerHTML = `
+        <p>The colors of the rainbow are ${result}</p>
+    `
 };
-
-console.log(rainBowColors());
