@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="student_object">
+        <label for="minhaj">
+            <input type="radio" id="minhaj" onchange="getCrrStudent('minhaj')">
+            Md. Minhajul Kabir
+        </label>
+        <br>
+        <label for="tanjimul">
+            <input type="radio" id="tanjimul" onchange="getCrrStudent('tanjimul')">
+            Md. Tanjimul Islam
+        </label>
+        <br>
+        <label for="rifal">
+            <input type="radio" id="rifal" onchange="getCrrStudent('rifal')">
+            Md. Rifal Ahmed
+        </label>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div id="make_sandwiches">
+        <label for="bread">
+            Enter Bread:
+            <input type="number" name="bread" id="bread">
+        </label>
+        <br><br>
+        <label for="cheese">
+            Enter cheese:
+            <input type="number" name="cheese" id="cheese">
+        </label>
+        <br><br>
+        <button onclick="makeSandwiches()">Make Sandwiches</button>
+    </div>
+</body>
+
+<script src="./index.js"></script>
+
+</html>
